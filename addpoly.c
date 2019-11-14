@@ -85,7 +85,7 @@ struct term *addpoly(struct term *h1, struct term *h2)
 		n=createterm(p2->coeff,p2->exp);
 		if(rh==NULL)
 			rh=last=n;
-		else
+		                    else
 			{
 				last->addr=n;
 				last=n;
